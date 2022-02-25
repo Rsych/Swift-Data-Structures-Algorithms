@@ -7,11 +7,20 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		71CD3FC727C8C2F400A5D9DB /* BinarySearch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BinarySearch.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		717C107927C8CA9600CECDF8 /* BinarySearch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BinarySearch.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		717C107B27C8D15900CECDF8 /* Quick Sort.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Quick Sort.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		71CD3FC927C8C5F100A5D9DB /* Recursion.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Recursion.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		717C107A27C8CAA300CECDF8 /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				717C107B27C8D15900CECDF8 /* Quick Sort.playground */,
+			);
+			path = Sorting;
+			sourceTree = "<group>";
+		};
 		71CD3FC027C8C2DF00A5D9DB = {
 			isa = PBXGroup;
 			children = (
@@ -22,10 +31,19 @@
 		71CD3FC827C8C42A00A5D9DB /* Searching and Sorting */ = {
 			isa = PBXGroup;
 			children = (
-				71CD3FC727C8C2F400A5D9DB /* BinarySearch.playground */,
-				71CD3FC927C8C5F100A5D9DB /* Recursion.playground */,
+				71CD3FCA27C8CA6700A5D9DB /* Searching */,
+				717C107A27C8CAA300CECDF8 /* Sorting */,
 			);
 			path = "Searching and Sorting";
+			sourceTree = "<group>";
+		};
+		71CD3FCA27C8CA6700A5D9DB /* Searching */ = {
+			isa = PBXGroup;
+			children = (
+				71CD3FC927C8C5F100A5D9DB /* Recursion.playground */,
+				717C107927C8CA9600CECDF8 /* BinarySearch.playground */,
+			);
+			path = Searching;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
