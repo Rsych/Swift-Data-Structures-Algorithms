@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		7139590F27CF6DCB00A834B8 /* String Keys.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "String Keys.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		717C107927C8CA9600CECDF8 /* BinarySearch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BinarySearch.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		717C107B27C8D15900CECDF8 /* Quick Sort.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Quick Sort.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		717C107D27C8D98600CECDF8 /* Dictionaries.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Dictionaries.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		71CD3FC927C8C5F100A5D9DB /* Recursion.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Recursion.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -21,10 +23,20 @@
 			path = Sorting;
 			sourceTree = "<group>";
 		};
+		717C107C27C8D30900CECDF8 /* Maps and Hashing */ = {
+			isa = PBXGroup;
+			children = (
+				717C107D27C8D98600CECDF8 /* Dictionaries.playground */,
+				7139590F27CF6DCB00A834B8 /* String Keys.playground */,
+			);
+			path = "Maps and Hashing";
+			sourceTree = "<group>";
+		};
 		71CD3FC027C8C2DF00A5D9DB = {
 			isa = PBXGroup;
 			children = (
 				71CD3FC827C8C42A00A5D9DB /* Searching and Sorting */,
+				717C107C27C8D30900CECDF8 /* Maps and Hashing */,
 			);
 			sourceTree = "<group>";
 		};

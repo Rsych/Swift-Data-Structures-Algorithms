@@ -1,6 +1,3 @@
-// return the contents of the input array sorted least to greatest
-// create any helper functions you need :)
-// want to get fancy? try making input an "inout" parameter, rather than copying it to "result"
 // more information here: https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Functions.html#//apple_ref/doc/uid/TP40014097-CH10-ID166
 func quickSort(_ input: [Int], low: Int, high: Int) -> [Int] {
     // this is a copy of the input so its contents can be modified
