@@ -10,6 +10,8 @@
 		7139590F27CF6DCB00A834B8 /* String Keys.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "String Keys.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7139591127CFB16200A834B8 /* Binary Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Binary Tree.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7139591227CFB63A00A834B8 /* Binary Search Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Binary Search Tree.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7139591427D0C1FD00A834B8 /* Graphs in Swift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Graphs in Swift.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7139591527D0F09600A834B8 /* Graph Traversal Practice.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Graph Traversal Practice.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		717C107927C8CA9600CECDF8 /* BinarySearch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BinarySearch.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		717C107B27C8D15900CECDF8 /* Quick Sort.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Quick Sort.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		717C107D27C8D98600CECDF8 /* Dictionaries.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Dictionaries.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -24,6 +26,15 @@
 				7139591227CFB63A00A834B8 /* Binary Search Tree.playground */,
 			);
 			path = Trees;
+			sourceTree = "<group>";
+		};
+		7139591327D0AC7800A834B8 /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+				7139591427D0C1FD00A834B8 /* Graphs in Swift.playground */,
+				7139591527D0F09600A834B8 /* Graph Traversal Practice.playground */,
+			);
+			path = Graphs;
 			sourceTree = "<group>";
 		};
 		717C107A27C8CAA300CECDF8 /* Sorting */ = {
@@ -49,6 +60,7 @@
 				71CD3FC827C8C42A00A5D9DB /* Searching and Sorting */,
 				717C107C27C8D30900CECDF8 /* Maps and Hashing */,
 				7139591027CF6F6C00A834B8 /* Trees */,
+				7139591327D0AC7800A834B8 /* Graphs */,
 			);
 			sourceTree = "<group>";
 		};
